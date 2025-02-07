@@ -2,6 +2,12 @@
 
 A unified ALSA and JACK (or PipeWire-JACK) patchbay with a color-coded port display, active connection listing, and scrolling support for panels. It is a simple script writen in python as a  wrapper over ALSA and JACK cli commands.
 
+## Interface
+
+Below is a screenshot of the Patchbay interface:
+
+![Patchbay Interface](./patchbay.png)
+
 ## Features
 
 - Displays ALSA and JACK (or PipeWire-JACK) ports in separate panels
@@ -60,11 +66,6 @@ python3 patchbay.py
 - **ALSA Ports**: Red background
 - **JACK Ports**: Blue background
 
-## Interface Example
-
-Below is a screenshot of the Patchbay interface:
-
-![Patchbay Interface](./patchbay.png)
 
 ## Contributing
 
